@@ -1,7 +1,8 @@
 *{
     box-sizing: border-box;
-    padding: 0%;
-    margin: 0;
+    padding: 20;
+    margin: 20;
+    background-color: lightsalmon;
 }
 
 body{
@@ -23,4 +24,22 @@ h1{
     text-align: center;
 }
 
+.link-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;  
+}
 
+.border{
+    border-style: solid;
+    border-color: lightgoldenrodyellow;
+    padding: 20px;
+    list-style-type: none;
+}
+
+.footer{
+    text-align: center;
+    list-style-type: none;
+    border-style: solid;
+    font-family: sans-serif;
+}
